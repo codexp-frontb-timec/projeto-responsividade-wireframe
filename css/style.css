@@ -82,8 +82,7 @@ body {
 
 .globo {
     box-sizing: border-box;
-    width:100%;
-    float:left;
+    width: 320px;
     padding: 2em;
 }
 
@@ -127,5 +126,64 @@ body {
     color: #A9A9A9;
 }
 
+    @media (min-width: 768px) {
 
 
+        .artigos-destaque {
+            display: inline-block;
+            width: 30%;
+            margin: 3em 0;
+            box-sizing: border-box;
+            padding: 0 3em;
+        }
+
+        .video {
+            float: left;
+            width: 100%;
+            height: auto;
+            background-color: #fff;
+        }
+
+        .video-container {
+            width: 30%;
+            float: left;
+            margin: 1%;
+            height: auto;
+            padding-bottom: 26.25%;
+        }
+
+        .video-container iframe {
+            height: 400px;
+        }
+
+        .video-container:first-of-type {
+            margin-left: 3%;
+        }
+
+        section.destaque-inferior {
+            float: left;
+            background: #fff;
+        }
+
+        .destaque-inferior__desktop {
+            float: left;
+            width: 50%;
+        }
+
+        .destaque-inferior__botao {
+            float: left;
+            width: 50%;
+            text-align: left;
+            margin-top: 50px;
+            padding-right: 6em;
+            box-sizing: border-box;
+        }
+
+        .rodape p {
+            max-width: 800px;
+            margin: auto;
+            margin-bottom: 20px;
+        }
+
+
+    }
